@@ -10,7 +10,7 @@ npm run seed  # create test users + groups
 ```
 
 ### GraphQL Endpoint
-`http://localhost:3000/api/graphql` (GraphiQL enabled)
+`[http://localhost:3000/api/graphql](https://growing-anemone-sweet.ngrok-free.app/api/graphql)` (GraphiQL enabled)
 
 ## Highlights
 - Black services: login/logout/refresh/validate + group access.
