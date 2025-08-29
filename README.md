@@ -1,6 +1,4 @@
-# Paradigm GraphQL Backend – v2 (Next.js 14)
-
-This version expands GraphQL to cover the **Black** and **Green** services from your docs, including ID formats, MCP routing, and N8N webhooks.
+# Paradigm GraphQL Backend – (Next.js 14)
 
 ## Run
 ```bash
