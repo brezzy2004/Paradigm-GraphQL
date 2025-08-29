@@ -1,5 +1,16 @@
 # Paradigm GraphQL Backend – (Next.js 14)
 
+## Public URL (ngrok)
+
+The API runs locally on port **3000** but is exposed publicly via **ngrok**.
+
+**Public GraphQL endpoint**  
+`https://growing-anemone-sweet.ngrok-free.app/api/graphql`
+
+### Start locally + expose with ngrok
+
+In another terminal, start ngrok on port 3000
+
 ## Run
 ```bash
 cp .env.example .env
