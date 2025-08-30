@@ -1,11 +1,16 @@
 # Paradigm GraphQL Backend – (Next.js 14)
 
-## Public URL (ngrok)
+## Public Endpoints 
+- GraphQL: **https://growing-anemone-sweet.ngrok-free.app/api/graphql**
+- n8n Webhooks:
+  - **/webhook/group-chat** → https://growing-anemone-sweet.ngrok-free.app/webhook/group-chat
+  - **/webhook/project-chat** → https://growing-anemone-sweet.ngrok-free.app/webhook/project-chat
+
+### How this works
+We proxy `/webhook/*` through Next.js to local n8n (port 5678). Keep n8n running locally.
 
 The API runs locally on port **3000** but is exposed publicly via **ngrok**.
 
-**Public GraphQL endpoint**  
-`https://growing-anemone-sweet.ngrok-free.app/api/graphql`
 
 ### Start locally + expose with ngrok
 
